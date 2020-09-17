@@ -1,0 +1,167 @@
+/****************   TAG Styles ********************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Oxygen', serif;
+  font-weight: bold;
+  color: #40514E;
+}
+
+div{
+  margin-top: 0;
+}
+
+h1{
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  }
+
+h2{
+  color: #66BFBF;
+  font-family: 'Oxygen', serif;
+  font-size: 2.5rem;
+  margin: 50px auto 0 auto;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Oxygen', serif;
+}
+
+hr{
+  border: dotted #DDD 6px;
+  border-bottom: none;
+  width: 5%;
+  margin-top: 50px;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #557571;
+}
+
+p{
+  line-height: 2;
+}
+
+/****************   Class Styles ********************/
+
+.top-container{
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top: 100px;
+  margin-bottom: 25px;
+}
+
+.middle-container{
+  margin: 50px 100px;
+}
+
+.bottom-container{
+  margin: 100px auto 0 auto;
+  padding: 50px;
+  background-color: #66BFBF;
+}
+
+.skills{
+  margin: 50px auto 50px auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+
+}
+
+.skill-img-computer{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 100px;
+}
+
+.logo-image{
+    margin: 20px auto 0 auto;
+}
+
+.skill-img-code{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 30px;
+}
+
+.contact-me{
+  margin: 50px auto 0 auto;
+}
+
+.intro{
+  width: 60%;
+  margin: 50px auto auto;
+}
+
+.button_submit {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Oxygen', serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button_submit:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  color: #FFFFFF;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.footer-link{
+  margin: auto 20px auto 20px;
+}
+
+/************************** ID SELECTORS **************************/
+
+#copyright{
+  color: #EAF6F6;
+  font-family: 'Oxygen', serif;
+}
+
+#cloudone{
+  position:absolute;
+  right:200px;
+  top:50px;
+}
+
+#coloudtwo{
+  position:absolute;
+  left: 200px;
+  bottom: 200px;
+}
